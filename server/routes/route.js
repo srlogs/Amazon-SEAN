@@ -10,7 +10,7 @@ const { runInNewContext } = require('vm');
 
 
 
-/*  Create Connection to the database   */
+/*  Connection to the database   */
 var con = mysql.createConnection(config);
 
 con.connect(function(err) {
